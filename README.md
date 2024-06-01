@@ -139,6 +139,19 @@ If you are looking for **classical machine learning exercises**, please check ou
 - [Fine Tuning](https://github.com/weprintmoney/LLMPractice/blob/main/8.20%20-%20Fine%20Tuning.ipynb)
 - [Semantic Search with Transformer Embeddings](https://github.com/weprintmoney/LLMPractice/blob/main/9.0%20Semantic%20Search%20with%20Transformer%20Embeddings.ipynb)
 
+## Generative AI Applications with LangChain
+**Goals:**
+- **Goal 1:** Description
+
+**Skills & Tools Covered:**
+- x
+
+**Slides & Lectures:**
+- x
+
+**Notebooks & Datasets:**
+- x
+
 ## How to Use
 
 To use the datasets in this repository, please follow the steps below:
