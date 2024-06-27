@@ -24,10 +24,6 @@ If you are looking for **classical machine learning exercises**, please check ou
 - 🤗 Hub for model download
 - 🤗 and 🦜🔗Libraries
 
-**Slides & Lectures:**
-- [Machine Learning Refresher Slides](https://drive.google.com/file/d/1vDTSa6mDbfJSr_DziWEF3N0-KXSTIgMN/view?usp=drive_link)
-- [Machine Learning Refresher Lesson](https://drive.google.com/file/d/1L3KizfrC1TzDEmfl4oK6oRcGtPrdQSCv/view?usp=drive_link)
-
 **Notebooks & Datasets:**
 - [Using the OpenAI API and 🤗 for YouTube Transcription, Transcript Summarization & Transcript Quiz Generation](https://github.com/weprintmoney/LLMPractice/blob/main/1.01%20-%20YouTube%20Transcription%20with%20Hugging%20Face%20Pipeline.ipynb)
 - [Prompt Engineering w/ Llama 2 for NLP Tasks](https://github.com/weprintmoney/LLMPractice/blob/main/1.03%20-%20Prompt%20Engineering%20with%20Llama2%20CPP.ipynb)
@@ -42,10 +38,6 @@ If you are looking for **classical machine learning exercises**, please check ou
 - Ensemble and Stacking Techniques
 - Model Evaluation
 
-**Slides & Lectures:**
-- [The Pathway to Generative AI Slides](https://drive.google.com/file/d/1FIvndFjPqMGJhrtRGA6VmySUQA36gAzO/view?usp=drive_link)
-- [The Pathway to Generative AI Lesson](https://drive.google.com/file/d/1iG7wFcp9QXWRadS8R_EmEaXQdA6_LmJz/view?usp=drive_link)
-
 **Notebooks & Datasets:**
 - [Text Preprocessing - Fake News Detector](https://github.com/weprintmoney/LLMPractice/blob/main/2.01%20-%20Fake%20News%20Detector.ipynb)
   - Dataset: [Fake_new_v1_dataset.csv](https://drive.google.com/file/d/1DYcCHi-Ua8ii4fQ80S-Wr5Ja0AEercoX/view?usp=drive_link)
@@ -58,13 +50,6 @@ If you are looking for **classical machine learning exercises**, please check ou
 - TF-IDF
 - LSTMs
 - ML Pipelines
-
-**Slides & Lectures:**
-- [Text Preprocessing Slides](https://drive.google.com/file/d/1G9tmHpjI4OobKk7OtzpCZ7bTPgaLo3gL/view?usp=drive_link)
-- [Text Preprocessing Lesson Part 1](https://drive.google.com/file/d/1p719r4vR5GLx-F6lwtFEUJCNM-B3fDBN/view?usp=drive_link)
-- [Text Preprocessing Lesson Part 2](https://drive.google.com/file/d/17tl5X-QElgyhcX1uE4CyAWyZWYnZHEXR/view?usp=drive_link)
-- [Neural Networks Slides](https://drive.google.com/file/d/1PNKaV4QMh-amxOueXrMQz9L0meCdHtSh/view?usp=drive_link)
-- [Neural Networks Lesson](https://drive.google.com/file/d/1jLSMDEFKFsZ_XIob-ggwNKB71ZsIkaFR/view?usp=drive_link)
 
 **Notebooks & Datasets:**
 - [Embeddings With Word2Vec](https://github.com/weprintmoney/LLMPractice/blob/main/3.01%20Embeddings%20With%20Word2Vec.ipynb)
@@ -88,11 +73,6 @@ If you are looking for **classical machine learning exercises**, please check ou
 - Llama 2 CPP
 - Mistral
 
-**Slides & Lectures:**
-- [Prompt Engineering Overview Slides](https://drive.google.com/file/d/11JhNPdShosAwZ0iQzMrFBMxqMxP97yFs/view?usp=drive_link)
-- [Prompt Engineering Fundamentals Part 1](https://drive.google.com/file/d/1O2i5QoqWtFer1vTmxudn77sjprO8U45z/view?usp=drive_link)
-- [Prompt Engineering Fundamentals Part 2](https://drive.google.com/file/d/1JJgmUf3CVomXe_q4loTPjtuRsBD3L5SI/view?usp=drive_link)
-
 **Notebooks & Datasets:**
 - [4.01 Prompt Engineering With Llama2 CPP](https://github.com/weprintmoney/LLMPractice/blob/main/4.01%20Prompt%20Engineering%20With%20Llama2%20CPP.ipynb)
 - [4.02 Prompt Engineering Use Cases](https://github.com/weprintmoney/LLMPractice/blob/main/4.02%20Prompt%20Engineering%20Use%20Cases.ipynb)
@@ -105,8 +85,6 @@ If you are looking for **classical machine learning exercises**, please check ou
 **Skills & Tools Covered:**
 - Chatbot Development
 - Multimodal Learning
-
-**Slides & Lectures:**
 
 **Notebooks & Datasets:**
 - [LangChain Essentials](https://github.com/weprintmoney/LLMPractice/blob/main/5.01%20LangChain%20Essentials%20-%20Global%20Warming.ipynb)
@@ -126,11 +104,6 @@ If you are looking for **classical machine learning exercises**, please check ou
 - 🤗Transformers Library
 - Tools
 
-**Slides & Lectures:**
-- [Transformers Slides](https://drive.google.com/file/d/1bMoQdL54ffqH35_7_VNoA8TOIX-bU_va/view?usp=drive_link)
-- [Transformers Lesson](https://drive.google.com/file/d/1UZcAgMCFZFu1A2j0Yue6s929--5nBwL-/view?usp=drive_link)
-- [Fine Tuning Lesson](https://drive.google.com/file/d/1jc_LCDpC5QUDffZ-xKFpDSLUasXOy5Xy/view?usp=drive_link)
-
 **Notebooks & Datasets:**
 - [Transformer Based LLM Use Cases](https://github.com/weprintmoney/LLMPractice/blob/main/8.03%20-%20Transformer-based%20LLM%20Use%20Cases.ipynb)
 - [Sarcasm Detection with Transformers](https://github.com/weprintmoney/LLMPractice/blob/main/8.04%20-%20Sarcasm%20Detection%20with%20Transformers.ipynb)
@@ -141,16 +114,24 @@ If you are looking for **classical machine learning exercises**, please check ou
 
 ## Generative AI Applications with LangChain
 **Goals:**
-- **Goal 1:** Description
+- **Working With LangChain Agents:** Gain an understanding of the process involved in creating LangChain Pandas DataFrame agents, and how these are utilized in creating applications such as Data Science Assistants
+- **Fine tuning with QLoRA:** Obtain an insight into Fine-tuning Open-Source LLMs by using QLoRA (Quantized Low-rank Adaptation) on the Llama 2 7B chat model
 
 **Skills & Tools Covered:**
-- x
-
-**Slides & Lectures:**
-- x
+- Integration of techniques such as NLP for database querying and RAG for contextual question answering
+- Leveraging external resources like the OpenAI API to enhance project capabilities
+- Identifying potential biases, privacy considerations, and implications for diverse stakeholders
+- Mitigating risks and upholding ethical principles
 
 **Notebooks & Datasets:**
-- x
+- [Developing AI Assistants with LangChain]([10.10 - Developing AI Assistants with LangChain.ipynb](https://github.com/weprintmoney/LLMPractice/blob/main/10.10%20-%20Developing%20AI%20Assistants%20with%20LangChain.ipynb))
+  - [Dataset: Pima Indians Diabetes]()
+- [Fine-tuning Llama 2 for Dialog Summarization with QLoRA](https://github.com/weprintmoney/LLMPractice/blob/main/10.20%20-%20Fine-tuning%20Llama%202%20for%20Dialog%20Summarization%20with%20QLoRA)
+- [LangChain Data Science Assistant]([10.20 - LangChain Data Science Assistant.ipynb](https://github.com/weprintmoney/LLMPractice/blob/main/10.20%20-%20LangChain%20Data%20Science%20Assistant.ipynb))
+- [Final Project: LangChain Data Science Assistant]()
+
+
+For more **fun with langchain**, please check out the [langchain-experiments](https://github.com/weprintmoney/langchain-experiments) repo.
 
 ## How to Use
 
