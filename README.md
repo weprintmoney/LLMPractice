@@ -124,12 +124,10 @@ If you are looking for **classical machine learning exercises**, please check ou
 - Mitigating risks and upholding ethical principles
 
 **Notebooks & Datasets:**
-- [Developing AI Assistants with LangChain](10.10 - Developing AI Assistants with LangChain.ipynb](https://github.com/weprintmoney/LLMPractice/blob/main/10.10%20-%20Developing%20AI%20Assistants%20with%20LangChain.ipynb)
+- [Developing AI Assistants with LangChain](https://github.com/weprintmoney/LLMPractice/blob/main/10.10%20-%20Developing%20AI%20Assistants%20with%20LangChain.ipynb)
   - [Dataset: Pima Indians Diabetes]()
 - [Fine-tuning Llama 2 for Dialog Summarization with QLoRA](https://github.com/weprintmoney/LLMPractice/blob/main/10.20%20-%20Fine-tuning%20Llama%202%20for%20Dialog%20Summarization%20with%20QLoRA)
 - [LangChain Data Science Assistant](https://github.com/weprintmoney/LLMPractice/blob/main/10.20%20-%20LangChain%20Data%20Science%20Assistant.ipynb)
-- [Final Project: LangChain Data Science Assistant]()
-
 
 For more **fun with langchain**, please check out the [langchain-experiments](https://github.com/weprintmoney/langchain-experiments) repo.
 
