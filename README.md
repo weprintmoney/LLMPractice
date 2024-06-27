@@ -102,7 +102,6 @@ If you are looking for **classical machine learning exercises**, please check ou
 
 **Skills & Tools Covered:**
 - 🤗Transformers Library
-- Tools
 
 **Notebooks & Datasets:**
 - [Transformer Based LLM Use Cases](https://github.com/weprintmoney/LLMPractice/blob/main/8.03%20-%20Transformer-based%20LLM%20Use%20Cases.ipynb)
