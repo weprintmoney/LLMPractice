@@ -128,7 +128,7 @@ If you are looking for **classical machine learning exercises**, please check ou
 - [Fine-tuning Llama 2 for Dialog Summarization with QLoRA](https://github.com/weprintmoney/LLMPractice/blob/main/10.20%20-%20Fine-tuning%20Llama%202%20for%20Dialog%20Summarization%20with%20QLoRA)
 - [LangChain Data Science Assistant](https://github.com/weprintmoney/LLMPractice/blob/main/10.20%20-%20LangChain%20Data%20Science%20Assistant.ipynb)
 
-For more **fun with langchain**, please check out the [langchain-experiments](https://github.com/weprintmoney/langchain-experiments) repo.
+For more **fun with LangChain**, please check out the [Austin LangChain Group](https://github.com/colinmcnamara/austin_langchain/tree/main/labs) repo.
 
 ## How to Use
 
