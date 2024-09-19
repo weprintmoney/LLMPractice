@@ -1,0 +1,95 @@
+The purpose of this notebook is to extract and consolidate key data points from multiple multi-lingual PDFs into a single table.
+
+# Install the required libraries
+!pip install openai
+!pip install pdfplumber
+!pip install pandas
+
+# Step 1: Import necessary libraries
+import openai
+import pdfplumber
+import pandas as pd
+from google.colab import files
+
+# Step 2: Set your OpenAI API key
+openai.api_key = 'PUT-YOUR-KEY-HERE'
+
+# Step 3: Define a function to extract text from PDF
+def extract_text_from_pdf(pdf_file):
+    full_text = ""
+    with pdfplumber.open(pdf_file) as pdf:
+        # Determine the number of pages to read (up to 2)
+        pages_to_read = min(len(pdf.pages), 2)
+
+        # Iterate over the first two pages (or fewer if the PDF is shorter)
+        for page_num in range(pages_to_read):
+            page = pdf.pages[page_num]
+            full_text += page.extract_text() or ""  # Use empty string if extract_text() returns None
+
+            # Add a separator between pages if there's more than one
+            if page_num < pages_to_read - 1:
+                full_text += "\n\n--- Page Break ---\n\n"
+
+    return full_text
+
+# Step 4: Define a function to ask GPT to find specific information in the text
+
+def get_employee_info_from_openai(text):
+
+    prompt = f"""
+    Extract the following information from the employee contract:
+    1. Employee Name
+    2. Job Title
+    3. Location
+    4. Date of Hire
+
+    Here is the contract text:
+    {text}
+
+    Please return the information in a structured format.
+    """
+
+    try:
+        # Sending the prompt to the OpenAI API with the new client interface
+        response = openai.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ]
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return None
+
+# Step 5: Upload PDF files
+uploaded = files.upload()
+
+# Step 6: Initialize an empty list to store employee data
+employee_data = []
+
+# Step 7: Iterate over uploaded PDF files and process them
+for file_name in uploaded.keys():
+    # Extract the raw text from each PDF
+    pdf_text = extract_text_from_pdf(file_name)
+
+    # Get structured information using OpenAI API
+    employee_info = get_employee_info_from_openai(pdf_text)
+
+    # Add the extracted information to the data list
+    employee_data.append(employee_info)
+
+# Step 8: Convert the list of employee data into a pandas DataFrame
+df = pd.DataFrame(employee_data)
+
+# Step 9: Display the DataFrame
+df
+
+# Step 10: Save to a CSV file for further use
+df.to_csv("extracted_employee_data.csv", index=False)
+
+# Step 11: Download the CSV file
+files.download("extracted_employee_data.csv")
