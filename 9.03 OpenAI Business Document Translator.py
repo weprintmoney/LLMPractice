@@ -1,3 +1,9 @@
+# From your terminal, run the following command:
+# pip install pandas python-docx openpyxl openai python-dotenv
+
+# Ensure the directory from which you're running this has a .env file with the following:
+# OPENAI_API_KEY=<your key here>
+
 import os
 import pandas as pd
 import docx
@@ -51,19 +57,23 @@ def translate_docx(file_path, target_language):
     return output_path
 
 def main():
-    file_path = input("Enter the path to the document: ")
+    file_path = input("Enter the path to the document: ").strip('"')  # Remove any surrounding quotes
     target_language = input("Enter the target language: ")
 
-    _, file_extension = os.path.splitext(file_path)
+    print(f"File path: {file_path}")  # Debug print
+    print(f"Target language: {target_language}")  # Debug print
 
-    if file_extension == '.xlsx':
+    _, file_extension = os.path.splitext(file_path)
+    print(f"Detected file extension: {file_extension}")  # Debug print
+
+    if file_extension.lower() == '.xlsx':
         output_path = translate_excel(file_path, target_language)
-    elif file_extension == '.csv':
+    elif file_extension.lower() == '.csv':
         output_path = translate_csv(file_path, target_language)
-    elif file_extension == '.docx':
+    elif file_extension.lower() == '.docx':
         output_path = translate_docx(file_path, target_language)
     else:
-        print("Unsupported file format.")
+        print(f"Unsupported file format: {file_extension}")
         return
 
     print(f"Translation complete. Output file: {output_path}")
